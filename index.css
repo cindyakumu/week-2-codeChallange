@@ -1,0 +1,38 @@
+#image{
+    background-image: url("lucrezia-carnelos-wQ9VuP_Njr4-unsplash.jpg");height: 1000;width: 1000;
+
+}
+#header{
+    gap: 3;
+    align-items: center;
+    justify-content: center;
+    height: 150;
+    flex-direction: column;
+    display: flex;
+    background-color: coral;
+}
+#head{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 10px ;
+    background-color:white ;
+
+
+}
+#addBtn{
+    padding: 0;
+    margin: 0%;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(42, 192, 42);
+
+}
+#btnDanger{
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(219, 42, 42);
+    height: max-content;
+}
