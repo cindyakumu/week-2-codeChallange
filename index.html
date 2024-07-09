@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body  id="image">
+   <main id="header">
+    <h1 id="head">Canvas shopping Center</h1>
+    <form >
+    <div>
+        <label for="item-name">Add item to the list</label>
+        <div>
+            <input required="" id="itemName" type="text" id="formControl" data-script="input" placeholder="your item here">
+           <button type="submit" id="addBtn">Add</button> 
+        </div>
+    </div>
+    </form>
+    <div>
+        <button data-script="clear list button" id="btnDanger">Clear List</button>
+        <ol data-script="shopping list" id="listGroup"></ol>
+    </div>
+    <ul id="listGroup">
+        <li id="ListGroupItem">
+            <button id="btnSuccess">
+                Mark purchased
+            </button>
+
+        </li>
+
+    </ul>
+
+   </main> 
+    <script>src="index.js"</script>
+</body>
+</div>
+</html>
