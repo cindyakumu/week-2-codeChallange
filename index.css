@@ -1,38 +1,74 @@
-#image{
-    background-image: url("lucrezia-carnelos-wQ9VuP_Njr4-unsplash.jpg");height: 1000;width: 1000;
-
+* {
+    box-sizing: border-box;
 }
-#header{
-    gap: 3;
+
+/*background effects */
+#image {
+    background-color: rgb(231, 90, 90);
+    background-image: url(shopping-bag.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+#header {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
-    height: 150;
     flex-direction: column;
     display: flex;
     background-color: coral;
 }
-#head{
+
+#head {
     text-align: center;
-    padding: 0;
+    padding: 10px;
     margin: 0;
-    border: 10px ;
-    background-color:white ;
-
-
+    background-color: white;
 }
-#addBtn{
-    padding: 0;
-    margin: 0%;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(42, 192, 42);
 
+#addBtn {
+    background-color: green;
 }
-#btnDanger{
-    padding: 0;
-    margin: 0;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(219, 42, 42);
-    height: max-content;
+
+#markP {
+    background-color: purple;
+}
+
+#btnDanger {
+    background-color: red;
+}
+
+#itemsDisplay {
+    margin-top: 20px;
+}
+
+#itemsOl {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+#itemsOl li.purchased {
+    text-decoration: line-through;
+    color: pink;
+}
+
+#itemsOl li.selectable {
+    cursor: pointer;
+}
+
+#itemsOl li.selected {
+    background-color: lightgrey;
 }
